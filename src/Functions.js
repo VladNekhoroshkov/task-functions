@@ -11,8 +11,8 @@ export function higherThan(num) {
 Напишите коллбек для array.filter, который отбирает из массива все строки, включающие в себя substr. Регистр важен.
  */
 export function hasSubstring(substr) {
-    return function (n) {
-        return n.includes(substr);
+    return function (s) {
+        return s.includes(substr);
     };
 }
 
